@@ -3,6 +3,8 @@
     <h1>Geolocation Map</h1>
     <Map v-if="locations.length" :locations="locations" />
     <p v-else>No location data available</p>
+
+    test
   </div>
 </template>
 
